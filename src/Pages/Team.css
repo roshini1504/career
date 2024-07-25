@@ -1,0 +1,45 @@
+/* Team Section Heading */
+#Teams h2 {
+    font-size: calc(1.5rem + 1vw);
+    font-weight: bold;
+  }
+  
+  #Teams p {
+    font-size: calc(0.9rem + 0.5vw);
+  }
+  
+  /* Card Image */
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-weight: bolder;
+    font-size: calc(1.2rem + 0.8vw);
+  }
+  
+  /* Card Text */
+  .card-text {
+    height: 200px;
+    font-size: calc(0.7rem + 0.6vw);
+  }
+  
+  /* Responsive Text Adjustment */
+  @media (max-width: 768px) {
+    .card-text {
+      height: auto;
+    }
+  }
+  
+  /* Hover Effect */
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  

@@ -1,0 +1,19 @@
+/* src/Components/Navbar.css */
+.navbar-scrolled {
+  background-color: blue;
+}
+
+.navbar-scrolled .nav-link {
+  color: rgb(139, 196, 235);
+}
+
+.navbar-scrolled .nav-link:hover {
+  color: blue;
+}
+
+.me-auto {
+  margin-left: 45%; /* Adjust as needed */
+}
+.nav-link-blue {
+  color:rgb(139, 196, 235);
+}

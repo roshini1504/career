@@ -1,0 +1,52 @@
+.industry-card {
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 0.5rem; 
+  border: 1px solid #dee2e6; 
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Add this to make the card take full height */
+}
+
+.industry-card:hover {
+  transform: scale(1.05); 
+  background-color: #f8f9fa; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.industry-card.bi {
+  font-size: 1.25rem; /* Initial icon size */
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.industry-card.card-text {
+  text-align: center; /* Add this to center the text */
+}
+
+@media (min-width: 576px) {
+ .industry-card.bi {
+    font-size: 1.5rem; /* Increase icon size for small screens */
+  }
+}
+
+@media (min-width: 768px) {
+ .industry-card.bi {
+    font-size: 2rem; /* Increase icon size for medium screens */
+  }
+}
+
+@media (min-width: 992px) {
+ .industry-card.bi {
+    font-size: 5.5rem; /* Increase icon size for large screens */
+  }
+}
+
+@media (min-width: 1200px) {
+ .industry-card.bi {
+    font-size: 3rem; /* Increase icon size for extra large screens */
+  }
+}
